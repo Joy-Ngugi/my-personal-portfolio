@@ -44,7 +44,7 @@ const projects = [
       "A Calorie Tracker app that allows you to add food, calculate calories, and gives you advice on how to go forward depending on the total number of calories",
     image: project4,
     technologies: ["Django", "Python", "Tailwind CSS"],
-    link: "https://django-calorie-tracker.vercel.app/",
+    link: "https://django-calorie-tracker-sxmp.onrender.com/",
     github: "https://github.com/Joy-Ngugi/django-calorie-tracker",
   },
   {
