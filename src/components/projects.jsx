@@ -5,6 +5,9 @@ import project2 from "../assets/safiri.JPG";
 import project3 from "../assets/fashion.JPG";
 import project4 from "../assets/calo.png";
 import project5 from "../assets/chat.png";
+import project6 from "../assets/gist.JPG";
+import project7 from "../assets/tranquil1.JPG";
+
 
 const projects = [
   {
@@ -56,6 +59,26 @@ const projects = [
     technologies: ["Django", "React.js", "PostgreSQL"],
     link: "#",
     github: "https://github.com/Joy-Ngugi/socialmedia-django",
+  },
+  {
+    id: 6,
+    title: "Github Gist Tracker",
+    description:
+      "I built a full-stack GitHub Gist Tracker, allowing users to authenticate, view, create, and manage their Gists with a clean, responsive UI.",
+    image: project6,
+    technologies: ["NextAuth", "Next.js", "MongoDB"],
+    link: "https://gist-tracker.netlify.app/",
+    github: "https://github.com/Joy-Ngugi/github-gist-tracker",
+  },
+  {
+    id: 7,
+    title: "Lounging Site - Tranquil Stays",
+    description:
+      "A fully responsive airBNB booking website with dynamic forms, mobile-friendly navigation, background slideshows, and interactive features.",
+    image: project7,
+    technologies: ["HTMI:5", "CSS", "Javascript"],
+    link: "https://air-bnb-six-pink.vercel.app/",
+    github: "https://github.com/Joy-Ngugi/AirBnb",
   },
 ];
 

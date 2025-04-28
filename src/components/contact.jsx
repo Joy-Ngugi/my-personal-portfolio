@@ -44,6 +44,7 @@ const Contact = () => {
         <div className="contact-info">
           <p><strong>Email:</strong> ngugijoy51@gmail.com</p>
           <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joy-ngugi-72b9432a0/" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a></p>
+          <p><strong>Github:</strong> <a href="https://github.com/Joy-Ngugi" target="_blank" rel="noopener noreferrer">My Github Link</a></p>
         </div>
 
         <form onSubmit={handleSubmit} className="contact-form">

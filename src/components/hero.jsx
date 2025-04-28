@@ -4,7 +4,7 @@ import profilePic from "../assets/profile (2).jpeg";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
     <div className="overlay"></div>
     <div className="hero-content">
     <div className="profile-frame">

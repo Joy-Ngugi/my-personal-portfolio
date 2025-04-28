@@ -3,7 +3,7 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
-// import Footer from "./components/Footer";
+import Footer from "./components/footer";
 
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <About />
       <Projects />
       <Contact /> 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
