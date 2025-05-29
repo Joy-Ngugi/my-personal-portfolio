@@ -72,7 +72,7 @@ const projects = [
   },
   {
     id: 7,
-    title: "Lounging Sit - Tranquil Stays",
+    title: "Lounging Site - Tranquil Stays",
     description:
       "A fully responsive airBNB booking website with dynamic forms, mobile-friendly navigation, background slideshows, and interactive features.",
     image: project7,
