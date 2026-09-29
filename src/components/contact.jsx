@@ -57,13 +57,13 @@ const Contact = () => {
         <div className="contact-info">
           <div className="contact-info-item">
             <span className="contact-info-label">Email</span>
-        <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=ngugijoy51@gmail.com"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  ngugijoy51@gmail.com
-</a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ngugijoy51@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ngugijoy51@gmail.com
+            </a>
           </div>
           <div className="contact-info-item">
             <span className="contact-info-label">LinkedIn</span>

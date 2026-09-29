@@ -19,7 +19,7 @@ const projects = [
       "A web application that helps users browse different mental disorders and read more about them, track mental health symptoms and get related WHO resources.",
     images: [project1, project2],
     technologies: ["HTML5", "Custom CSS", "JavaScript"],
-    link: "https://mental-health-three.vercel.app/",
+    link: "https://mentalhealth-six.vercel.app/",
     github: "https://github.com/Joy-Ngugi/Mental-Health",
   },
   {
