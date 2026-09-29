@@ -2,6 +2,22 @@ import { useState } from "react";
 import "../styles/styles.css";
 import useReveal from "../hooks/useReveal";
 import Lightbox from "./LightBox";
+import mentalhealth1 from "../assets/1MentalHealth.png";
+import mentalhealth2 from "../assets/2MentalHealth.png";
+import mentalhealth3 from "../assets/3MentalHealth.png";
+import mentalhealth4 from "../assets/4MentalHealth.png";
+import mentalhealth5 from "../assets/5MentalHealth.png";
+import mentalhealth6 from "../assets/6MentalHealth.png";
+
+import vacation1 from "../assets/VacationFinder1.png";
+import vacation2 from "../assets/VacationFinder2.png";
+import vacation3 from "../assets/VacationFinder3.png";
+import vacation4 from "../assets/VacationFinder4.png";
+import vacation5 from "../assets/VacationFinder5.png";
+import vacation6 from "../assets/VacationFinder6.png";
+import vacation7 from "../assets/VacationFinder7.png";
+import vacation8 from "../assets/VacationFinder8.png";
+import vacation9 from "../assets/VacationFinder9.png";
 
 import project1 from "../assets/mental.JPG";
 import project2 from "../assets/safiri.JPG";
@@ -17,7 +33,7 @@ const projects = [
     title: "Mental Health Awareness App",
     description:
       "A web application that helps users browse different mental disorders and read more about them, track mental health symptoms and get related WHO resources.",
-    images: [project1, project2],
+    images: [mentalhealth1, mentalhealth2, mentalhealth3, mentalhealth4, mentalhealth5, mentalhealth6],
     technologies: ["HTML5", "Custom CSS", "JavaScript"],
     link: "https://mentalhealth-six.vercel.app/",
     github: "https://github.com/Joy-Ngugi/Mental-Health",
@@ -27,10 +43,10 @@ const projects = [
     title: "Safiri Central Kenya",
     description:
       "An interactive app with search and filters that displays places you can visit around central Kenya, their directions, budget and booking functionalities.",
-    images: [project2],
+    images: [vacation1, vacation2, vacation3, vacation4, vacation5, vacation6, vacation7, vacation8, vacation9],
     technologies: ["React.js", "API Integration", "Django", "Tailwind CSS"],
     link: "https://django-vacation-finder-capstone.vercel.app/",
-    github: "https://github.com/Joy-Ngugi/Django-vacation-finder-capstone",
+    github: "https://github.com/Joy-Ngugi/Vacation-finder",
   },
   {
     id: 3,
