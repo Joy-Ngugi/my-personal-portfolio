@@ -19,13 +19,53 @@ import vacation7 from "../assets/VacationFinder7.png";
 import vacation8 from "../assets/VacationFinder8.png";
 import vacation9 from "../assets/VacationFinder9.png";
 
-import project1 from "../assets/mental.JPG";
-import project2 from "../assets/safiri.JPG";
-import project3 from "../assets/fashion.JPG";
-import project4 from "../assets/calo.png";
-import project5 from "../assets/chat.png";
-import project6 from "../assets/gist.JPG";
-import project7 from "../assets/tranquil1.JPG";
+import fashion1 from "../assets/Fashion1.png";
+import fashion2 from "../assets/Fashion2.png";
+import fashion3 from "../assets/Fashion3.png";
+import fashion4 from "../assets/Fashion4.png";
+import fashion5 from "../assets/Fashion5.png";
+
+import calorie1 from "../assets/Calorie-Tracker1.png";
+import calorie2 from "../assets/Calorie-Tracker2.png";
+import calorie3 from "../assets/Calorie-Tracker3.png";
+import calorie4 from "../assets/Calorie-Tracker4.png";
+
+import socialMedia1 from "../assets/Social-Media1.png";
+import socialMedia2 from "../assets/Social-Media2.png";
+import socialMedia3 from "../assets/Social-Media3.png";
+import socialMedia4 from "../assets/Social-Media4.png";
+import socialMedia5 from "../assets/Social-Media5.png";
+import socialMedia6 from "../assets/Social-Media6.png";
+import socialMedia7 from "../assets/Social-Media7.png";
+
+import Laundromat1 from "../assets/Laundromat1.png";
+import Laundromat2 from "../assets/Laundromat2.png";
+import Laundromat3 from "../assets/Laundromat3.png";
+import Laundromat4 from "../assets/Laundromat4.png";
+import Laundromat5 from "../assets/Laundromat5.png";
+import Laundromat6 from "../assets/Laundromat6.png";
+import Laundromat7 from "../assets/Laundromat7.png";
+import Laundromat8 from "../assets/Laundromat8.png";
+import Laundromat9 from "../assets/Laundromat9.png";
+import Laundromat10 from "../assets/Laundromat10.png";
+import Laundromat11 from "../assets/Laundromat11.png";
+
+import Airbnb1 from "../assets/Airbnb1.png";
+import Airbnb2 from "../assets/Airbnb2.png";
+import Airbnb3 from "../assets/Airbnb3.png";
+import Airbnb4 from "../assets/Airbnb4.png";
+import Airbnb5 from "../assets/Airbnb5.png";
+import Airbnb6 from "../assets/Airbnb6.png";
+import Airbnb7 from "../assets/Airbnb7.png";
+import Airbnb8 from "../assets/Airbnb8.png";
+import Airbnb9 from "../assets/Airbnb9.png";
+
+import portfolio1 from "../assets/NdichuPortfolio1.png";
+import portfolio2 from "../assets/NdichuPortfolio2.png";
+import portfolio3 from "../assets/NdichuPortfolio3.png";
+import portfolio4 from "../assets/NdichuPortfolio4.png";
+import portfolio5 from "../assets/NdichuPortfolio5.png";
+
 
 const projects = [
   {
@@ -45,7 +85,7 @@ const projects = [
       "An interactive app with search and filters that displays places you can visit around central Kenya, their directions, budget and booking functionalities.",
     images: [vacation1, vacation2, vacation3, vacation4, vacation5, vacation6, vacation7, vacation8, vacation9],
     technologies: ["React.js", "API Integration", "Django", "Tailwind CSS"],
-    link: "https://django-vacation-finder-capstone.vercel.app/",
+    link: "https://kenya-vacation-finder.vercel.app",
     github: "https://github.com/Joy-Ngugi/Vacation-finder",
   },
   {
@@ -53,9 +93,9 @@ const projects = [
     title: "Fashion Store Web Application",
     description:
       "An e-commerce platform for browsing different apparels according to categories, adding to cart, ordering, and tracking fashion apparel.",
-    images: [project3],
+    images: [fashion1, fashion2, fashion3, fashion4, fashion5],
     technologies: ["HTML5", "JavaScript", "Custom CSS"],
-    link: "https://javascript-capstone.vercel.app/",
+    link: "https://fashione-commerce.vercel.app/",
     github: "https://github.com/Joy-Ngugi/Fashion-E-Commerce",
   },
   {
@@ -63,9 +103,9 @@ const projects = [
     title: "Calorie Tracker",
     description:
       "A Calorie Tracker app that allows you to add food, calculate calories, and gives you advice on how to go forward depending on the total number of calories.",
-    images: [project4],
+    images: [calorie1, calorie2, calorie3, calorie4],
     technologies: ["Django", "Python", "Tailwind CSS"],
-    link: "https://django-calorie-tracker-sxmp.onrender.com/",
+    link: "#",
     github: "https://github.com/Joy-Ngugi/django-calorie-tracker",
   },
   {
@@ -73,30 +113,42 @@ const projects = [
     title: "Social Media App",
     description:
       "A platform for users to create posts, comment, like, and follow others — similar to Instagram, Telegram or TikTok. Easy to navigate and use.",
-    images: [project5],
+    images: [socialMedia1, socialMedia2, socialMedia3, socialMedia4, socialMedia5, socialMedia6, socialMedia7],
     technologies: ["Django", "React.js", "PostgreSQL"],
     link: "#",
     github: "https://github.com/Joy-Ngugi/socialmedia-django",
   },
+
   {
     id: 6,
-    title: "GitHub Gist Tracker",
+    title: "Spin Bar Laundromat",
     description:
-      "A full-stack GitHub Gist Tracker allowing users to authenticate, view, create, and manage their Gists with a clean, responsive UI.",
-    images: [project6],
-    technologies: ["NextAuth", "Next.js", "MongoDB"],
-    link: "https://gist-tracker.netlify.app/",
-    github: "https://github.com/Joy-Ngugi/github-gist-tracker",
+      "A modern laundromat web application that lets customers book washing and drying machines, schedule pickup and delivery, and track their laundry from drop-off to ready-for-collection.",
+    images: [Laundromat1, Laundromat2, Laundromat3, Laundromat4, Laundromat5, Laundromat6, Laundromat7, Laundromat8, Laundromat9, Laundromat10, Laundromat11],
+    technologies: ["HTML5", "CSS", "JavaScript"],
+    link: "https://spin-bar-laundry.vercel.app/",
+    github: "https://github.com/Joy-Ngugi/Spin-Bar-Laundry",
   },
+
   {
     id: 7,
     title: "Lounging Site — Tranquil Stays",
     description:
       "A fully responsive Airbnb-style booking website with dynamic forms, mobile-friendly navigation, background slideshows, and interactive features.",
-    images: [project7],
+    images: [Airbnb1, Airbnb2, Airbnb3, Airbnb4, Airbnb5, Airbnb6, Airbnb7, Airbnb8, Airbnb9],
     technologies: ["HTML5", "CSS", "JavaScript"],
     link: "https://air-bnb-six-pink.vercel.app/",
     github: "https://github.com/Joy-Ngugi/AirBnb",
+  },
+   {
+    id: 8,
+    title: "Personal Portfolio Website for Francis Ndichu Kamau",
+    description:
+      "A responsive React portfolio website showcasing Francis Ndichu Kamau's graphic design and video editing work, experience, and contact details.",
+    images: [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5],
+    technologies: ["React js", "Tailwind CSS", "JavaScript"],
+    link: "https://ndichu-graphic-designer-website.vercel.app/",
+    github: "https://github.com/Joy-Ngugi/ndichu-graphic-designer-website",
   },
 ];
 
@@ -139,11 +191,11 @@ const ProjectThumbnail = ({ project, onOpen }) => {
       onKeyDown={
         hasGallery
           ? (e) => {
-              if (e.key === "Enter" || e.key === " ") {
-                e.preventDefault();
-                onOpen(project);
-              }
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              onOpen(project);
             }
+          }
           : undefined
       }
       aria-label={hasGallery ? `View ${project.images.length} images of ${project.title}` : undefined}
