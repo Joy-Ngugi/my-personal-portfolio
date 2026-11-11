@@ -255,7 +255,7 @@ const projects = [
     id: 5,
     title: "Ticket Yetu",
     description:
-      "Ticket Yetu is a web and mobile ticketing application that enables parents and teachers to submit, manage, and communicate on school-related support requests in one place. Developed collaboratively as a company project, I contributed to building and improving features across the web and mobile applications alongside other developers.",
+      "Ticket Yetu is an event ticketing and access control platform that enables event staff to verify attendee entry through QR code scanning and monitor access to designated event rooms through RFID reader integration, ensuring attendees access the rooms included in their purchased tickets.",
     images: [ticketyetu1, ticketyetu2, ticketyetu3, ticketyetu4, ticketyetu5, ticketyetu6, ticketyetu7, ticketyetu8, ticketyetu9, ticketyetu10, ticketyetu11, ticketyetu12, ticketyetu13],
     technologies: ["React.js", "React Native", "Tailwind CSS", "Django", "Django REST Framework", "PostgreSQL", "Git & GitHub"],
     link: "#",
